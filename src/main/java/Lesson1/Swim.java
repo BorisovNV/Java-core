@@ -4,3 +4,4 @@ public interface Swim {
     boolean swim(int length);
     int getSwimLimit();
 }
+

@@ -17,3 +17,4 @@ public class Wall implements Let {
         return height;
     }
 }
+

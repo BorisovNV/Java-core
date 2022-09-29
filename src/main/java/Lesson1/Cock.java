@@ -20,3 +20,4 @@ public class Cock extends Animal implements Jump {
         return jump_limit;
     }
 }
+
