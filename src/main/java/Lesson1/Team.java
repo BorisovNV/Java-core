@@ -7,13 +7,13 @@ public class Team {
     private String nameTeam = "unknown";
     Animal[] zoo = {new Cat("Щегол"), new Cock("Шпора"), new Hippo("Большой"), new Cock("Гребень"), new Cat("Шустрый"),
             new Hippo("Толстокожий")};
-    public Animal[] teamAnimal = new Animal[5];
+    public Animal[] teamAnimal = new Animal[6];
     Random random = new Random();
 
     public Team(String nameTeam) {
         this.nameTeam = nameTeam;
-        for(int i = 0; i < 5; i++){
-            int ran = random.nextInt(5);
+        for(int i = 0; i < 6; i++){
+            int ran = random.nextInt(6);
             teamAnimal[i] = zoo[ran];
         }
     }
