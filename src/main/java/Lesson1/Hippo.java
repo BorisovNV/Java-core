@@ -20,3 +20,4 @@ public class Hippo extends Animal implements Swim {
         return swim_limit;
     }
 }
+

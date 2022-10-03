@@ -32,3 +32,4 @@ public class Cat extends Animal implements Jump, Swim {
         return jump_limit;
     }
 }
+
